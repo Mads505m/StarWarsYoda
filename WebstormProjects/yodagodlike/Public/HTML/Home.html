@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>lol</title>
-
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 <body>
-<h2>Hej</h2>
+    <div id="app">
+        <h1>STARWARS KARAKTER</h1>
+        <div id="add-character">
+            <form id="swForm">
+                <button type="submit">Tilføj en karakter</button>
+            </form>
+        </div>
+        <div id="character-list">
+            <ul id="characters">
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal">
+        <div id="modal-content">
+            <span id="close">&times;</span>
+            <h2>Tilføj karakter</h2>
+            <input type="text" id="character-name" placeholder="Navn" required>
+            <input type="text" id="character-role" placeholder="Rolle" required>
+            <input type="text" id="character-planet" placeholder="Planet" required>
+            <button id="submit-creation">Tilføj</button>
+        </div>
+    </div>
+
+    <script src="../JavaScript/CharacterList.js"></script>
 </body>
 </html>

@@ -1,14 +1,97 @@
 body {
-
-    background-image: url('../Images/background.jpg');
+    background-image: url('../Images/Deathstar.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    margin: 0;
+    overflow-y: hidden;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#app {
+    margin: auto;
+}
+
+#character-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 80vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4E4E4ED8;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+li {
+    padding: 10px;
+    background-color: rgba(78, 78, 78, 0.85);
+    margin: 5px 0;
+    border-radius: 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #4E4E4ED8;
+    height: 40px;
+    border-radius: 5px;
+    min-width: 100px;
     color: white;
-    font-family: Arial, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover, #close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
