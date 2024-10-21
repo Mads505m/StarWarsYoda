@@ -10,7 +10,6 @@ const missingDetails = (req, res, next) => {
         if (!id) {
             return res.status(400).json({ message: 'ID må ikke være tomt.' });
         }
-        fs.readF
     }
     next();
 };
