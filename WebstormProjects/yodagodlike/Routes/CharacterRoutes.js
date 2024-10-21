@@ -4,15 +4,15 @@ const router = express.Router();
 const CharacterController = require('../Controller/CharacterController');
 const logRequest = require('../Middleware/LogRequest');
 const missingDetails = require('../middleware/missingDetails');
+const checkFileExists = require('../Middleware/FileNotExisting');
 
+router.get('/characters', checkFileExists, logRequest, CharacterController.getAllCharacters);
 
-router.get('/characters', logRequest, CharacterController.getAllCharacters);
+router.post('/characters', checkFileExists, missingDetails, logRequest, CharacterController.addCharacter);
 
-router.post('/characters', missingDetails, logRequest, CharacterController.addCharacter);
+router.put('/characters/:id', checkFileExists, missingDetails, logRequest, CharacterController.updateCharacter);
 
-router.put('/characters/:id', missingDetails, logRequest, CharacterController.updateCharacter);
-
-router.delete('/characters', missingDetails, logRequest, CharacterController.deleteCharactersFromFile);
+router.delete('/characters', checkFileExists, missingDetails, logRequest, CharacterController.deleteCharactersFromFile);
 
 
 module.exports = router;

@@ -37,9 +37,9 @@
   },
   {
     "id": 8,
-    "name": "Emil",
-    "role": "Grand Master",
-    "planet": "Kode planeten"
+    "name": "Pede",
+    "role": "Grand",
+    "planet": "Diabetes"
   },
   {
     "id": 9,
@@ -79,12 +79,6 @@
   },
   {
     "id": 15,
-    "name": "asd",
-    "role": "Grand",
-    "planet": "asds"
-  },
-  {
-    "id": 16,
     "name": "asd",
     "role": "Grand",
     "planet": "asds"

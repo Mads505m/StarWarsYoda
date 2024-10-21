@@ -13,25 +13,18 @@ const getAllCharacters = (req, res) => {
 const addCharacter = (req, res) => {
     const { name, role, planet } = req.body;
     const newCharacter = { name, role, planet };
-    const addedCharacter = CharacterModel.addCharacter(newCharacter);
-    return res.status(201).json(addedCharacter);
+        const addedCharacter = CharacterModel.addCharacter(newCharacter);
+        return res.status(201).json(addedCharacter);
 };
 
 
 const updateCharacter = (req, res) => {
     const { id } = req.params;
     const updatedCharacter = req.body;
-    if (!updatedCharacter.name || !updatedCharacter.role || !updatedCharacter.planet) {
-        return res.status(400).json({ message: 'Alle detaljer skal udfyldes' });
-    }
+
     const characterId = parseInt(id, 10);
     const result = CharacterModel.updateCharacterById(characterId, updatedCharacter);
-
-    if (result) {
-        return res.json(result);
-    } else {
-        return res.status(404).json({ message: 'Karakter ikke fundet' });
-    }
+    return res.json(result);
 };
 
 
