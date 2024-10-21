@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Luke Skywalker",
+    "role": "Jedi Knight",
+    "planet": "Tatooine"
+  },
+  {
+    "id": 2,
+    "name": "Darth Vader",
+    "role": "Sith Lord",
+    "planet": "Tatooine"
+  },
+  {
+    "id": 3,
+    "name": "Princess Leia",
+    "role": "Princess",
+    "planet": "Alderaan"
+  },
+  {
+    "id": 5,
+    "name": "Han Solo",
+    "role": "Smuggler",
+    "planet": "Corellia"
+  },
+  {
+    "id": 6,
+    "name": "Beldorion",
+    "role": "Grand Master",
+    "planet": "planet Nal Hutta"
+  },
+  {
+    "name": "Peter",
+    "role": "Noob jedi",
+    "planet": "Diabetes",
+    "id": 7
+  },
+  {
+    "id": 8,
+    "name": "Emil",
+    "role": "Grand Master",
+    "planet": "Kode planeten"
+  },
+  {
+    "id": 9,
+    "name": "Emil",
+    "role": "Grand Master",
+    "planet": ""
+  },
+  {
+    "id": 10,
+    "name": "Emil",
+    "role": "Grand Master",
+    "planet": ""
+  },
+  {
+    "id": 11,
+    "name": "Emil",
+    "role": "Grand Master",
+    "planet": ""
+  },
+  {
+    "id": 12,
+    "name": "Emil",
+    "role": "Grand Master",
+    "planet": ""
+  },
+  {
+    "id": 13,
+    "name": "asd",
+    "role": "Grand",
+    "planet": "asds"
+  },
+  {
+    "id": 14,
+    "name": "asd",
+    "role": "Grand",
+    "planet": "asds"
+  },
+  {
+    "id": 15,
+    "name": "asd",
+    "role": "Grand",
+    "planet": "asds"
+  },
+  {
+    "id": 16,
+    "name": "asd",
+    "role": "Grand",
+    "planet": "asds"
+  },
+  {
+    "id": 18
+  },
+  {
+    "id": 19
+  },
+  {
+    "id": 20
+  }
+]
