@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,31 +7,41 @@
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 <body>
-    <div id="app">
-        <h1>STARWARS KARAKTER</h1>
-        <div id="add-character">
-            <form id="swForm">
-                <button type="submit">Tilføj en karakter</button>
-            </form>
-        </div>
-        <div id="character-list">
-            <ul id="characters">
-
-            </ul>
-        </div>
+<div id="app">
+    <h1>STARWARS KARAKTER</h1>
+    <div id="add-character">
+        <form id="swForm">
+            <button type="submit">Tilføj en karakter</button>
+        </form>
     </div>
+    <div id="character-list">
+        <ul id="characters">
 
-    <div id="modal">
-        <div id="modal-content">
-            <span id="close">&times;</span>
-            <h2>Tilføj karakter</h2>
-            <input type="text" id="character-name" placeholder="Navn" required>
-            <input type="text" id="character-role" placeholder="Rolle" required>
-            <input type="text" id="character-planet" placeholder="Planet" required>
-            <button id="submit-creation">Tilføj</button>
-        </div>
+        </ul>
     </div>
+</div>
 
-    <script src="../JavaScript/CharacterList.js"></script>
+<div id="modal-add">
+    <div id="modal-content-add">
+        <span id="close-add">&times;</span>
+        <h2>Tilføj en karakter</h2>
+        <input type="text" id="character-name" placeholder="Navn" required>
+        <input type="text" id="character-role" placeholder="Rolle" required>
+        <input type="text" id="character-planet" placeholder="Planet" required>
+        <button id="submit-creation">Tilføj</button>
+    </div>
+</div>
+
+<div id="modal-info">
+    <div id="modal-content-info">
+        <span id="close-info">&times;</span>
+        <h2>Character Information</h2>
+        <p><strong>Name:</strong> <span id="char-name"></span></p>
+        <p><strong>Role:</strong> <span id="char-role"></span></p>
+        <p><strong>Planet:</strong> <span id="char-planet"></span></p>
+    </div>
+</div>
+
+<script src="../JavaScript/CharacterList.js"></script>
 </body>
 </html>

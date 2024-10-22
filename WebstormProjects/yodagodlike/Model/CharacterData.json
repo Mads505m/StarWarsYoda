@@ -82,5 +82,35 @@
     "name": "asd",
     "role": "Grand",
     "planet": "asds"
+  },
+  {
+    "id": 16,
+    "name": "darth",
+    "role": "grandmaster",
+    "planet": "nuah"
+  },
+  {
+    "id": 17,
+    "name": "darth",
+    "role": "as",
+    "planet": "ds"
+  },
+  {
+    "id": 18,
+    "name": "darth",
+    "role": "sa",
+    "planet": "sd"
+  },
+  {
+    "id": 19,
+    "name": "peter",
+    "role": "flæske",
+    "planet": "fd"
+  },
+  {
+    "id": 20,
+    "name": "Pede",
+    "role": "darth",
+    "planet": "llu"
   }
 ]

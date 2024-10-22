@@ -45,6 +45,8 @@ li {
     justify-content: space-between;
 }
 
+
+
 button {
     background-color: #4E4E4ED8;
     height: 40px;
@@ -62,7 +64,9 @@ input {
     border-radius: 5px;
 }
 
-#modal {
+
+
+#modal-add, #modal-info {
     display: none;
     position: fixed;
     z-index: 1;
@@ -71,11 +75,11 @@ input {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-#modal-content {
+
+#modal-content-add, #modal-content-info {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -83,15 +87,23 @@ input {
     width: 80%;
 }
 
-#close {
+#close-add, #close-info {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-#close:hover, #close:focus {
+#close-add:hover, #close-add:focus, #close-info:hover, #close-info:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+#modal-content-info h2, #modal-content-add h2{
+    color: black;
+}
+
+#modal-content-info p, #modal-content-add p{
+    color: black;
 }
