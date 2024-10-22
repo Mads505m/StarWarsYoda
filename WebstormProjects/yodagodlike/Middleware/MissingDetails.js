@@ -36,7 +36,4 @@ const missingDetails = (req, res, next) => {
     next();
 };
 
-
-
-
 module.exports = missingDetails;

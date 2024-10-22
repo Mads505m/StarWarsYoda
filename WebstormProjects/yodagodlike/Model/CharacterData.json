@@ -1,11 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Luke Skywalker",
-    "role": "Jedi Knight",
-    "planet": "Tatooine"
-  },
-  {
     "id": 2,
     "name": "Darth Vader",
     "role": "Sith Lord",
